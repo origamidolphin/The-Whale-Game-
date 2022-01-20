@@ -159,7 +159,7 @@ function draw() {
   noStroke()//makes it so my name has no outline
   fill(255) //makes the text white
   textFont(chelsea)//loads font
-  text("Julia Jakob", width, height) //writes my name in the bottom right corner
+  text("Julia", width, height) //writes my name in the bottom right corner
   textSize(height / 10) //sets the text size to be the height/10
 }
 function keyPressed() {
